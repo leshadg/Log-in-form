@@ -1,0 +1,155 @@
+html,body{
+    margin:0;
+    height: 100%;
+}
+h2{
+    text-align: center;
+    font-family: ui-sans-serif, -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:20px;
+    margin-bottom: 45px;
+}
+body{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.login-container{
+    padding: 20px;
+    width: 350px;
+    height: 550px;
+    background: rgb(37, 36, 36);
+    border-radius: 15px;
+}
+.button_google{
+    font-size:15px;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(80, 79, 79);
+    border: 1px solid rgb(135, 133, 133);
+    border-radius: 20px;
+    height: 40px;
+    padding:0;
+    margin: -10px 24px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button_apple{
+    font-size:15px;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(80, 79, 79);
+    border: 1px solid rgb(135, 133, 133);
+    border-radius: 20px;
+    height: 40px;
+    padding:0;
+    margin: -10px 24px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button_microsoft{
+    font-size:15px;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(80, 79, 79);
+    border: 1px solid rgb(135, 133, 133);
+    border-radius: 20px;
+    height: 40px;
+    padding:0;
+    margin: -10px 24px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button_phone{
+    font-size:15px;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(80, 79, 79);
+    border: 1px solid rgb(135, 133, 133);
+    border-radius: 20px;
+    height: 40px;
+    padding:0;
+    margin: -10px 24px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+img{
+    margin-right:7px ;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.divider{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: ui-sans-serif, -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(135, 133, 133);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: -4px 10px;
+}   
+.divider::before, .divider::after{
+    content: "";
+    flex:1;
+    height: 1px;
+    background: rgb(135, 133, 133);
+    margin: 0px 16px;
+
+}
+.button_email{
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 20px;
+    margin: -10px 24px;
+    border: 0 solid;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(80, 79, 79);
+    border: 1px solid rgb(135, 133, 133);
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_password{
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 20px;
+    margin: -10px 24px;
+    border: 0 solid;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(80, 79, 79);
+    border: 1px solid rgb(135, 133, 133);
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_continue{
+    border-radius: 20px;
+    height: 40px;
+    padding:0;
+    width: 300px;
+    margin: -10px 24px;
+    background: white;
+    border: 0 solid ;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
