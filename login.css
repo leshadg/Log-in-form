@@ -18,7 +18,7 @@ body{
 .login-container{
     padding: 20px;
     width: 350px;
-    height: 550px;
+    height: 600px;
     background: rgb(37, 36, 36);
     border-radius: 15px;
 }
@@ -109,7 +109,9 @@ img{
     height: 1px;
     background: rgb(135, 133, 133);
     margin: 0px 16px;
-
+}
+.divider:hover{
+    cursor: default;
 }
 .button_email{
     border-radius: 20px;
@@ -141,15 +143,47 @@ img{
     justify-content: center;
     align-items: center;
 }
+a{
+    color: rgb(135, 133, 133);
+    font-size: 13px;
+    text-decoration: none;
+    font-family:  ui-sans-serif, -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.passwordrecovery{
+    margin: -15px;
+    margin-left: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
 .button_continue{
     border-radius: 20px;
     height: 40px;
     padding:0;
     width: 300px;
-    margin: -10px 24px;
+    margin: 35px 24px;
     background: white;
     border: 0 solid ;
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+
+}
+.checkbox{
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    background-color: rgb(135, 133, 133) ;
+}
+span{
+    font-family:ui-sans-serif, -apple-system, system-ui, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" ;
+    font-size: 13px;
+    color: rgb(135, 133, 133);
 }
